@@ -58,7 +58,7 @@ export class GameManager {
         infiniteGold: false,
         infiniteTroops: false,
         instantBuild: false,
-        bots: 400,
+        bots: 1000,
       }),
     );
     return id;
@@ -145,7 +145,7 @@ export class GameManager {
           infiniteTroops: false,
           instantBuild: false,
           disableNPCs: false,
-          bots: 400,
+          bots: 1000,
         }),
       );
     }
